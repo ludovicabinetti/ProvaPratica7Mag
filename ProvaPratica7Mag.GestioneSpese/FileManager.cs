@@ -18,7 +18,7 @@ namespace ProvaPratica7Mag.GestioneSpese
         {
             List<Expense> expenses = OpenAndReadFile(e.Name, e.FullPath);
 
-            decimal amount;
+            //decimal amount;
 
             // iterazione sulle Expenses estratte per calcolare il rimborso
             foreach (Expense exp in expenses)
@@ -46,6 +46,7 @@ namespace ProvaPratica7Mag.GestioneSpese
                 // lettura riga per riga il file finché non ci sono più righe
                 // per ogni riga si crea una Expense
                 while ((line = reader.ReadLine()) != null && line != "")
+                    // qui avrei dovuto mettere if != null... Add ad expenses
                     expenses.Add(Expense.CreateExpenseFromFile(line));
 
                 reader.Close(); // chiusura del flusso 

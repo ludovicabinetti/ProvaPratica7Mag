@@ -77,6 +77,7 @@ namespace ProvaPratica7Mag.GestioneSpese
             if (approvalLevel != ApprovalLevel.None)
                 approvalStatus = true;
 
+            // **************** qui avrei dovuto creare solo se approvalLevel era true ********************
             // creazione di una Expense
             return new Expense(date, category, description, amount, approvalStatus, approvalLevel);
         }

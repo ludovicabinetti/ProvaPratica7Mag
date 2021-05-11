@@ -1,6 +1,6 @@
+1/1/2021;Food;Lunch;200
+10/10/2020;Accomodation;Hotel;20
+18/11/2020;Accomodation;Hotel;20000
 5/10/2020;Travel;To Rome;70
-10/10/2020;Accomodation;Hotel;100
-1/1/2021;Food;Lunch;10
+1/1/2021;Food;Lunch;100
 12/03/2021;Other;stuff;30
-
-

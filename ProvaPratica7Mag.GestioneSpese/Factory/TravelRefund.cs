@@ -10,7 +10,7 @@ namespace ProvaPratica7Mag.GestioneSpese.Factory
     {
         public decimal CalculateRefundAmount(decimal amount)
         {
-            return 50;
+            return amount + 50;
         }
     }
 }
